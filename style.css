@@ -1,0 +1,149 @@
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.icon-head {
+    display: flex;
+    align-items: center;
+}
+
+#nav-menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #cbcbcb;
+    padding: 5px;
+    margin-bottom: 15px;
+    position: sticky;
+}
+
+.discover-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* margin: 30px; */
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-weight: bold;
+}
+/* .myImage {
+    height: 30%;
+    width: 80%;
+}  */
+
+.btn {
+    background-color: rgb(0, 195, 255);
+    width: 160px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.text-name {
+    padding: 100px;
+}
+
+.myImages {
+    height: 160%;
+    width: 160%;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.about-me {
+    margin-left: 200px;
+    padding-right: 60px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    color: white;
+    background-color: rgb(3, 3, 31);
+}
+
+.contact-about-me {
+    padding-right: 100px;
+}
+
+.email {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.email-btn {
+    margin-left: -15px;
+    background-color: rgb(32, 107, 194);
+    color: white;
+    border-radius: 5px;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 350px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.text {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn2 {
+    width: 200px;
+}
+
+.send-msg {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
